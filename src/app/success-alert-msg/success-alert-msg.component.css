@@ -1,0 +1,10 @@
+.col-sm-6{
+    background-color: green;
+    border: 1px dashed rgb(25, 216, 15);
+    margin-bottom: 0;
+}
+p{
+padding: 10px;
+    margin-bottom: 0;
+
+}
