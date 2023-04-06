@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+1. Add input field which updates property ("username") via Two-Way binding 
+2. update username property via string interpolation( in paragraph below input)
+3. add button which click only if username is not empty string 
+4. upon clicking the button the username should be reset to empty string 
