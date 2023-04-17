@@ -9,6 +9,8 @@ export class ServersComponent {
   isallowed= false
   serverCreateStatus="No server is created"
   serverName="Test"
+  serverCreated=false
+  servers=["TestServer", "TestServer 2"]
 
   constructor(){
     setTimeout(()=>{
@@ -16,6 +18,8 @@ export class ServersComponent {
     },2000)
   }
   onServerCreation=()=>{
+    this.serverCreated= true
+    this.servers.push(this.serverName)
     this.serverCreateStatus= "Server Created Successfully! Name is " + this.serverName
   }
   onServerNameChange=(event:any)=>{
